@@ -4,7 +4,7 @@ Simple caching manager depends on Alternative PHP Cache.
 
 ## Requirements
 
-1. Enable APCu module in php.ini, by adding the following settings
+Enable APCu module in php.ini, by adding the following settings
 
 ```
 extension=php_apcu.dll
@@ -22,7 +22,7 @@ apc.serializer=php
 
 ## Usage
 
-```python
+```php
 <?php
 //store a value
 CachingManager::Store("name", "Mike");
